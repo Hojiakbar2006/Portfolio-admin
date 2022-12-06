@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Style.css";
 
 import deleteIcon from "../../Assets/Icons/Delete.svg";

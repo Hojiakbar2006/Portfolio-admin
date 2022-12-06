@@ -2,7 +2,7 @@ import React from "react";
 import "./Project.css";
 import { ShowProject } from "../../Components/ShowCard/ShowProject";
 import img from "../../Assets/Images/honey-admin.png";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const project = [
   {
@@ -178,7 +178,7 @@ const project = [
 ];
 
 export function Project() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div id="Project">
       <div className="hedTitle">

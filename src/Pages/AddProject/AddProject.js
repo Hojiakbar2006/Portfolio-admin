@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./AddProject.css";
 
 export function AddProject() {
-  const [project, setProject] = useState([]);
+//   const [project, setProject] = useState([]);
 
   return (
     <div id="AddCard">
